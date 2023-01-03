@@ -33,11 +33,16 @@ module.exports = {
         'slide-up': {
           '0%': { opacity: 1, transform: 'translateY(0px)'},
           '100%': { opacity: 0, transform: 'translateY(-15px)'},
+        },
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
         }
       },
       animation: {
         'slide-down': 'slide-down 0.2s ease-in-out forwards',
         'slide-up': 'slide-up 0.2s ease-in forwards',
+        wiggle: 'wiggle 0.77s ease-in-out infinite'
       }
     }
   },

@@ -4,6 +4,7 @@ import CalendarPage from "./pages/calendar";
 import DatePickerPage from "./pages/date-picker";
 import HomePage from "./pages/home";
 import PasswordPage from "./pages/password";
+import ThankYouPage from "./pages/thank-you";
 
 function App() {
 
@@ -26,6 +27,10 @@ function App() {
         {
           path: "/date-picker",
           element: <DatePickerPage />
+        },
+        {
+          path: "/thank-you",
+          element: <ThankYouPage />
         },
       ]
     },
