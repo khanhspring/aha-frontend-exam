@@ -18,7 +18,7 @@ const DateControls: FC<Props> = ({ monthView, onPrev, onNext, onTitleClick }) =>
     <div className="flex items-center justify-between h-6 select-none">
       <span
         onClick={onPrev}
-        className="flex items-center justify-center h-full cursor-pointer px-2 pt-[2px] rounded-sm hover:bg-white group/control-item"
+        className="flex items-center justify-center h-full cursor-pointer px-2 mt-1.5 rounded-sm hover:bg-white group/control-item"
       >
         <PrevIcon className="group-hover/control-item:fill-cod-gray-900"/>
       </span>
@@ -27,7 +27,7 @@ const DateControls: FC<Props> = ({ monthView, onPrev, onNext, onTitleClick }) =>
       </span>
       <span
         onClick={onNext}
-        className="flex items-center justify-center h-full cursor-pointer px-2 pt-[2px] rounded-sm hover:bg-white group/control-item"
+        className="flex items-center justify-center h-full cursor-pointer px-2 mt-1.5 rounded-sm hover:bg-white group/control-item"
       >
         <NextIcon className="group-hover/control-item:fill-cod-gray-900"/>
       </span>

@@ -41,7 +41,7 @@ const Calendar: FC<Props> = ({ title, value, onChange = () => { }, onCancel = ()
     <div className="w-[320px] py-4 rounded-[10px] bg-cod-gray-700 shadow-overlay">
       {
         title &&
-        <div className="h-[24px] flex items-center px-6">
+        <div className="h-[24px] flex items-center px-6 pt-[1px]">
           {title}
         </div>
       }

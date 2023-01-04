@@ -70,9 +70,9 @@ const DateTable: FC<Props> = ({ selected, monthView, onSelect = () => { } }) => 
   }
 
   return (
-    <div className="flex flex-col gap-3 mt-[23px] px-1">
+    <div className="flex flex-col mt-[23px] px-1">
       <DateTableHeader />
-      <div className="grid grid-cols-7 gap-x-1.5">
+      <div className="grid grid-cols-7 gap-x-1.5 mt-[13px]">
         {
           daysInPrevMonth.map((day, index) =>
             <div key={index} className={`h-9 flex items-center justify-center`}>
