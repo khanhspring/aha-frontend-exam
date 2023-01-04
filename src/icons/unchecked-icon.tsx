@@ -14,8 +14,8 @@ const UncheckedIcon: FC<Props> = ({ className = '' }) => {
       xmlns="http://www.w3.org/2000/svg"
       className={`w-full h-auto ${className}`}
     >
-      <circle cx="10" cy="10" r="9" stroke="#565656" stroke-width="2" />
-      <path d="M5.90918 9.99966L8.63645 13.1815L14.5455 7.27238" stroke="#565656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <circle cx="10" cy="10" r="9" stroke="#565656" strokeWidth="2" />
+      <path d="M5.90918 9.99966L8.63645 13.1815L14.5455 7.27238" stroke="#565656" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
 }

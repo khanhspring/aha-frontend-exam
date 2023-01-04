@@ -37,16 +37,8 @@ const Calendar: FC<Props> = ({ title, value, onChange = () => { }, onCancel = ()
     onChange(currentDate);
   }
 
-  const onClick = (e: MouseEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
-  }
-
   return (
-    <div
-      onClick={e => onClick(e)}
-      className="w-[320px] py-4 rounded-[10px] bg-cod-gray-700 shadow-overlay"
-    >
+    <div className="w-[320px] py-4 rounded-[10px] bg-cod-gray-700 shadow-overlay">
       {
         title &&
         <div className="h-7 py-1.5 flex items-center px-6">
