@@ -68,7 +68,7 @@ const InputPassword: FC<Props> = ({ label, placeholder, value = "", policies = D
       {
         policyVisible &&
         <div className={`
-            absolute top-full mt-[20px] z-50 w-[335px] bg-cod-gray-650 px-3 py-2 rounded-lg shadow-overlay flex flex-col animate-slide-down
+            absolute top-full mt-[20px] z-50 w-[335px] bg-cod-gray-650 px-3.5 py-2 rounded-lg shadow-overlay flex flex-col animate-slide-down
             ${policyHiding ? 'animate-slide-up' : ''}
           `}
         >

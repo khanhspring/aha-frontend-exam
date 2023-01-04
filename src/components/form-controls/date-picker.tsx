@@ -64,7 +64,7 @@ const DatePicker: FC<Props> = ({ label, placeholder = 'mm/dd/yyyy', value, onCha
         placeholder={placeholder}
         value={(currentValue && dayjs(currentValue).format("MM/DD/YYYY")) || ''}
         className={`
-          h-[58px] p-3 outline-none w-full bg-transparent rounded-lg border-[3px] border-white/50 hover:border-white focus:border-azure-radiance-900 placeholder:text-white/30 transition
+          h-[58px] p-3 outline-none w-full bg-transparent rounded-lg border-[3px] border-white/50 hover:border-white focus:border-azure-radiance-900 placeholder:text-white/30 font-ubuntu placeholder:font-ubuntu transition
           ${pickerVisible ? '!border-azure-radiance-900' : ''}
         `}
         onChange={() => {/* do nothing */ }}

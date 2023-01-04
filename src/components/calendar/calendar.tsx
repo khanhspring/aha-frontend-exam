@@ -1,5 +1,5 @@
 import dayjs from 'dayjs';
-import { FC, MouseEvent, useState } from 'react';
+import { FC, useState } from 'react';
 import { monthOf, startYearOf } from '../../utils/date.util';
 import CalendarActions from './calendar-actions';
 import DatePanel from './date-panel/date-panel';
@@ -41,7 +41,7 @@ const Calendar: FC<Props> = ({ title, value, onChange = () => { }, onCancel = ()
     <div className="w-[320px] py-4 rounded-[10px] bg-cod-gray-700 shadow-overlay">
       {
         title &&
-        <div className="h-7 py-1.5 flex items-center px-6">
+        <div className="h-[24px] flex items-center px-6">
           {title}
         </div>
       }
