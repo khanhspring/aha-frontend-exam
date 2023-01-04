@@ -8,7 +8,7 @@ const HomePage = () => {
         <h2 className="text-4xl font-bold">Hello!</h2>
             <DatePicker label="Birthday"/>
             <InputPassword placeholder="Password..." label="Password"/>
-            <Calendar />
+            <Calendar title="Text"/>
         </div>
     );
 }
